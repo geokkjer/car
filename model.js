@@ -1,10 +1,17 @@
+// Appen
+var app = document.getElementById('app');
 
+// Random stuff
 var randomStuffWithCoolScore = {
-    spareTire: 0,
+    spareTire: -10,
     roofRack: 1,
 
 };
+
+// Coolness
 var CoolnessMTR = 50;
 
- var car = [];
+// Car
+var car = ['start', 'stop'];
 
+var stuffOnCar = [];
