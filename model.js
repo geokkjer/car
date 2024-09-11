@@ -4,7 +4,7 @@ var randomStuffWithCoolScore = {
     roofRack: 1,
 
 };
-var CoolnessMTR = 1;
+var CoolnessMTR = 50;
 
  var car = [];
 
