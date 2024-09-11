@@ -1,10 +1,10 @@
 
 var randomStuffWithCoolScore = {
-    spareTire: 0,
+    spareTire: -10,
     roofRack: 1,
 
 };
 var CoolnessMTR = 50;
 
- var car = [];
+var car = [];
 
