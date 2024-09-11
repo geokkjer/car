@@ -1,0 +1,6 @@
+function generateRandomStuff(){
+}
+
+function addRandomStuff(){
+    
+}
