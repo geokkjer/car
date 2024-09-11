@@ -1,8 +1,11 @@
 function generateRandomStuff() {
     thing = Object.keys(randomStuffWithCoolScore)[Math.floor(Math.random() * Object.keys(randomStuffWithCoolScore).length)];
-    console.log(thing)
+    coolness = randomStuffWithCoolScore[thing];
+    console.log(thing, coolness)
+    CoolnessMTR = CoolnessMTR + coolness;
+    return thing
 }
 
-function addRandomStuff() {
+function addRandomStuff(thing) {
 
 }
