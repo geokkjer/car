@@ -1,7 +1,8 @@
-function generateRandomStuff(){
-    Object.keys(animals)[Math.floor(Math.random()*Object.keys(animals).length)]
+function generateRandomStuff() {
+    thing = Object.keys(randomStuffWithCoolScore)[Math.floor(Math.random() * Object.keys(randomStuffWithCoolScore).length)];
+    console.log(thing)
 }
 
-function addRandomStuff(){
-    
+function addRandomStuff() {
+
 }
