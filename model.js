@@ -13,3 +13,8 @@ var CoolnessMTR = 50;
 // Car
 var car = ['start', 'stop'];
 var stuffOnCar = [];
+
+// Friends
+var friends = [];
+var questions = [];
+var coolGreetings = [];
