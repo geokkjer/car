@@ -8,6 +8,7 @@ function updateView(){
   `;
 }
 function WinAndLoss(){
+
 }
 
 function isDriving(){
