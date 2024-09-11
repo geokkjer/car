@@ -4,4 +4,6 @@ randomStuffWithCoolScore = {
     roofRack: 1,
 
 };
-CoolnessMTR = 1
+CoolnessMTR = 1;
+
+
