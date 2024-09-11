@@ -9,3 +9,4 @@ var CoolnessMTR = 50;
 
 var car = ['start', 'stop'];
 
+var stuffOnCar = [];
