@@ -4,6 +4,4 @@ function updateView(){
     <p> <meter min="0" max="100" value="${CoolnessMTR}">${CoolnessMTR}%</meter> </p>
   `;
 }
-function WinAndLoss(){
-    
-}
+function WinAndLoss(){}
