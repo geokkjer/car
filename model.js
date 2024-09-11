@@ -18,3 +18,4 @@ var stuffOnCar = [];
 var friends = [];
 var questions = [];
 var coolGreetings = [];
+
