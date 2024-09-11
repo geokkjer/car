@@ -1,3 +1,4 @@
+var app = document.getElementById('app');
 
 var randomStuffWithCoolScore = {
     spareTire: -10,
@@ -6,5 +7,5 @@ var randomStuffWithCoolScore = {
 };
 var CoolnessMTR = 50;
 
-var car = [];
+var car = ['start', 'stop'];
 
