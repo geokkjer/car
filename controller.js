@@ -29,18 +29,21 @@ function addRandomStuff(thing) {
     console.log(thing, coolness)
     CoolnessMTR = CoolnessMTR + coolness;
     app.innerHTML += `${CoolnessMTR}`
+    winLoss();
     isMoving = true;
+
     updateView();
     return CoolnessMTR;
 }
 function noAdd() {
     isMoving = true;
+    winLoss();
     updateView();
 }
 function startCar() {
     isMoving = true;
     console.log(isMoving);
-    winLoss();
+    
     car();
 }
 function moving() {
