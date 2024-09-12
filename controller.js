@@ -51,9 +51,9 @@ function winLoss() {
     }
 
     if (CoolnessMTR > 99) {
-        document.getElementById('App').innerHTML = 'Totaly Swagtacular!!! :)';
-        document.getElementById('App').style = 'Display: Flex; justify-content: center; font-size: 100px; color: green;'
-        document.getElementById('TheBod').classList.add('WinImg');
+        app.innerHTML = 'Totaly Swagtacular!!! :)';
+        app.style = 'Display: Flex; justify-content: center; font-size: 100px; color: green;'
+        document.getElementById('body').classList.add('WinImg');
 
     }
 }
