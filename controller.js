@@ -4,14 +4,15 @@ function winLoss() {
         document.getElementById("TheBod").innerHTML = '<div id="app" style=""></div>';
         document.getElementById('app').innerHTML = 'Way Past Un-Cool! :(';
         document.getElementById('app').style = 'Display: Flex; justify-content: center; font-size: 100px; color: red; '
-        document.getElementById('TheBod').classList.add('LossImg');
+        document.getElementById('TheBod').style = 'background: url(img/Sad.png);background-size: 1000px 1000px;background-repeat: no-repeat;';
     }
 
     if (CoolnessMTR > 99) {
+        document.getElementById('TheBod').style = 'background: url(img/Smiley.png);background-repeat: no-repeat;'
         document.getElementById("TheBod").innerHTML = '<div id="app"></div>';
         document.getElementById('app').innerHTML = 'Totaly Swagtacular!!! :)';
         document.getElementById('app').style = 'Display: Flex; justify-content: center; font-size: 100px; color: green;'
-        document.getElementById('TheBod').classList.add('WinImg');
+        
 
     }
 }
