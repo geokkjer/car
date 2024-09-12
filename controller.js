@@ -1,6 +1,20 @@
 
-function generateRandomStuff() {
+function winLoss() {
+    if (CoolnessMTR < 1) {
+        app.innerHTML = 'Way Past Un-Cool! :(';
+        app.style = 'Display: Flex; justify-content: center; font-size: 100px; color: red; '
+        document.getElementById('TheBod').classList.add('LossImg');
+    }
 
+    if (CoolnessMTR > 99) {
+        app.innerHTML = 'Totaly Swagtacular!!! :)';
+        app.style = 'Display: Flex; justify-content: center; font-size: 100px; color: green;'
+        document.getElementById('TheBod').classList.add('WinImg');
+
+    }
+}
+
+function generateRandomStuff() {
     thing = Object.keys(randomStuffWithCoolScore)[Math.floor(Math.random() * Object.keys(randomStuffWithCoolScore).length)];
     coolness = randomStuffWithCoolScore[thing];
     app.innerHTML += /*HTML*/ `
@@ -26,6 +40,7 @@ function noAdd() {
 function startCar() {
     isMoving = true;
     console.log(isMoving);
+    winLoss();
     car();
 }
 function moving() {
@@ -40,20 +55,5 @@ function car() {
         moving();
         setTimeout(generateRandomStuff, randomTime)
         // setTimeout(buddy, randomTime)
-    }
-}
-
-function winLoss() {
-    if (CoolnessMTR < 1) {
-        app.innerHTML = 'Way Past Un-Cool! :(';
-        app.style = 'Display: Flex; justify-content: center; font-size: 100px; color: red; '
-        document.getElementById('TheBod').classList.add('LossImg');
-    }
-
-    if (CoolnessMTR > 99) {
-        app.innerHTML = 'Totaly Swagtacular!!! :)';
-        app.style = 'Display: Flex; justify-content: center; font-size: 100px; color: green;'
-        document.getElementById('TheBod').classList.add('WinImg');
-
     }
 }

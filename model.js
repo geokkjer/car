@@ -5,6 +5,7 @@ var app = document.getElementById('app');
 var randomStuffWithCoolScore = {
     spareTire: 10,
     roofRack: 10,
+    flowers: 40,
 };
 
 // Coolness
