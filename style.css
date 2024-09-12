@@ -4,12 +4,12 @@ label {
 }
 
 .LossImg {
-    background: url(Sad.png);
+    background: url(img/Sad.png);
     background-size: 1000px 1000px;
     background-repeat: no-repeat;
 }
 
 .WinImg {
-    background: url(Smiley.png);
+    background: url(img/Sad.png);
     background-repeat: no-repeat;
 }
