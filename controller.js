@@ -47,13 +47,13 @@ function winLoss() {
     if (CoolnessMTR < 1) {
         app.innerHTML = 'Way Past Un-Cool! :(';
         app.style = 'Display: Flex; justify-content: center; font-size: 100px; color: red; '
-        document.getElementById('body').classList.add('LossImg');
+        document.getElementById('TheBod').classList.add('LossImg');
     }
 
     if (CoolnessMTR > 99) {
         app.innerHTML = 'Totaly Swagtacular!!! :)';
         app.style = 'Display: Flex; justify-content: center; font-size: 100px; color: green;'
-        document.getElementById('body').classList.add('WinImg');
+        document.getElementById('TheBod').classList.add('WinImg');
 
     }
 }
