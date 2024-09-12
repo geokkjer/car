@@ -8,6 +8,7 @@ function updateView() {
     <img id="car-img" src="img/car_stop.png"/>
     <button onclick="startCar()">Kjør</button>
   `;
+  winLoss();
 }
 
 

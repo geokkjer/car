@@ -1,6 +1,6 @@
 
 function generateRandomStuff() {
-    
+
     thing = Object.keys(randomStuffWithCoolScore)[Math.floor(Math.random() * Object.keys(randomStuffWithCoolScore).length)];
     coolness = randomStuffWithCoolScore[thing];
     app.innerHTML += /*HTML*/ `
@@ -8,7 +8,7 @@ function generateRandomStuff() {
         <button id="acceptButton" onclick="addRandomStuff()">Add to car</button>
         <button id="acceptButton" onclick="noAdd()">Not add to car</button>
     `;
-    
+
 }
 
 function addRandomStuff(thing) {
@@ -19,7 +19,7 @@ function addRandomStuff(thing) {
     updateView();
     return CoolnessMTR;
 }
-function noAdd(){
+function noAdd() {
     isMoving = true;
     updateView();
 }
@@ -43,13 +43,15 @@ function car() {
     }
 }
 
-function winLoss(){
-    if(CoolnessMTR < 1){document.getElementById('App').innerHTML = 'Way Past Un-Cool! :(';
-        document.getElementById('App').style = 'Display: Flex; justify-content: center; font-size: 100px; color: red; '
-        document.getElementById('TheBod').classList.add('LossImg');
+function winLoss() {
+    if (CoolnessMTR < 1) {
+        app.innerHTML = 'Way Past Un-Cool! :(';
+        app.style = 'Display: Flex; justify-content: center; font-size: 100px; color: red; '
+        document.getElementById('body').classList.add('LossImg');
     }
 
-        if(CoolnessMTR > 99){document.getElementById('App').innerHTML = 'Totaly Swagtacular!!! :)';
+    if (CoolnessMTR > 99) {
+        document.getElementById('App').innerHTML = 'Totaly Swagtacular!!! :)';
         document.getElementById('App').style = 'Display: Flex; justify-content: center; font-size: 100px; color: green;'
         document.getElementById('TheBod').classList.add('WinImg');
 
