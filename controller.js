@@ -1,14 +1,16 @@
 
 function winLoss() {
     if (CoolnessMTR < 1) {
-        app.innerHTML = 'Way Past Un-Cool! :(';
-        app.style = 'Display: Flex; justify-content: center; font-size: 100px; color: red; '
+        document.getElementById("TheBod").innerHTML = '<div id="app" style=""></div>';
+        document.getElementById('app').innerHTML = 'Way Past Un-Cool! :(';
+        document.getElementById('app').style = 'Display: Flex; justify-content: center; font-size: 100px; color: red; '
         document.getElementById('TheBod').classList.add('LossImg');
     }
 
     if (CoolnessMTR > 99) {
-        app.innerHTML = 'Totaly Swagtacular!!! :)';
-        app.style = 'Display: Flex; justify-content: center; font-size: 100px; color: green;'
+        document.getElementById("TheBod").innerHTML = '<div id="app"></div>';
+        document.getElementById('app').innerHTML = 'Totaly Swagtacular!!! :)';
+        document.getElementById('app').style = 'Display: Flex; justify-content: center; font-size: 100px; color: green;'
         document.getElementById('TheBod').classList.add('WinImg');
 
     }

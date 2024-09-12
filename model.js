@@ -10,7 +10,7 @@ var randomStuffWithCoolScore = {
 };
 
 // Coolness
-var CoolnessMTR = 10;
+var CoolnessMTR = 99;
 
 // Car
 var imagesMoving = ['img/car_moving1.png', 'img/car_moving2.png', "img/car_moving3.png"];
