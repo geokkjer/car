@@ -26,9 +26,7 @@ function generateRandomStuff() {
 }
 
 function addRandomStuff(thing) {
-    console.log(thing, coolness)
     CoolnessMTR = CoolnessMTR + coolness;
-    app.innerHTML += `${CoolnessMTR}`
     winLoss();
     isMoving = true;
     updateView();
