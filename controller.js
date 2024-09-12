@@ -31,7 +31,6 @@ function addRandomStuff(thing) {
     app.innerHTML += `${CoolnessMTR}`
     winLoss();
     isMoving = true;
-
     updateView();
     return CoolnessMTR;
 }
@@ -41,9 +40,7 @@ function noAdd() {
     updateView();
 }
 function startCar() {
-    isMoving = true;
-    console.log(isMoving);
-    
+    isMoving = true;    
     car();
 }
 function moving() {

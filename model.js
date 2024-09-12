@@ -6,10 +6,11 @@ var randomStuffWithCoolScore = {
     spareTire: 10,
     roofRack: 10,
     flowers: 40,
+    dirt: -10,
 };
 
 // Coolness
-var CoolnessMTR = 99;
+var CoolnessMTR = 10;
 
 // Car
 var imagesMoving = ['img/car_moving1.png', 'img/car_moving2.png', "img/car_moving3.png"];
