@@ -9,9 +9,7 @@ function updateView() {
     <button onclick="startCar()">Kjør</button>
   `;
 }
-function WinAndLoss() {
 
-}
 
 
 

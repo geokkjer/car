@@ -42,3 +42,16 @@ function car() {
         // setTimeout(buddy, randomTime)
     }
 }
+
+function winLoss(){
+    if(CoolnessMTR < 1){document.getElementById('App').innerHTML = 'Way Past Un-Cool! :(';
+        document.getElementById('App').style = 'Display: Flex; justify-content: center; font-size: 100px; color: red; '
+        document.getElementById('TheBod').classList.add('LossImg');
+    }
+
+        if(CoolnessMTR > 99){document.getElementById('App').innerHTML = 'Totaly Swagtacular!!! :)';
+        document.getElementById('App').style = 'Display: Flex; justify-content: center; font-size: 100px; color: green;'
+        document.getElementById('TheBod').classList.add('WinImg');
+
+    }
+}
