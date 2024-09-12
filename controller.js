@@ -13,7 +13,6 @@ function winLoss() {
 
     }
 }
-
 function generateRandomStuff() {
     thing = Object.keys(randomStuffWithCoolScore)[Math.floor(Math.random() * Object.keys(randomStuffWithCoolScore).length)];
     coolness = randomStuffWithCoolScore[thing];
