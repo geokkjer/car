@@ -1,4 +1,15 @@
 label {
     padding-right: 10px;
     font-size: 1rem;
-  }
+}
+
+.LossImg {
+    background: url(Sad.png);
+    background-size: 1000px 1000px;
+    background-repeat: no-repeat;
+}
+
+.WinImg {
+    background: url(Smiley.png);
+    background-repeat: no-repeat;
+}
