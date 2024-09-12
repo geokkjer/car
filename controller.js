@@ -5,6 +5,8 @@ function winLoss() {
         document.getElementById('app').innerHTML = 'Way Past Un-Cool! :(';
         document.getElementById('app').style = 'Display: Flex; justify-content: center; font-size: 100px; color: red; '
         document.getElementById('TheBod').style = 'background: url(img/Sad.png);background-size: 1000px 1000px;background-repeat: no-repeat;';
+        document.getElementById('app').innerHTML += `<button onclick="location.reload()">Reset</button>`;
+
     }
 
     if (CoolnessMTR > 99) {
@@ -12,7 +14,7 @@ function winLoss() {
         document.getElementById("TheBod").innerHTML = '<div id="app"></div>';
         document.getElementById('app').innerHTML = 'Totaly Swagtacular!!! :)';
         document.getElementById('app').style = 'Display: Flex; justify-content: center; font-size: 100px; color: green;'
-        
+        document.getElementById('app').innerHTML += `<button onclick="location.reload()">Reset</button>`;
 
     }
 }
