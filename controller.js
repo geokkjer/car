@@ -50,7 +50,7 @@ function moving() {
     }
 }
 function car() {
-    let randomTime = 2000;
+    let randomTime = Math.floor(Math.random() * 2000);
     if (isMoving) {
         moving();
         setTimeout(generateRandomStuff, randomTime)
