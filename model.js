@@ -21,7 +21,7 @@ var isMoving = false;
 var rand;
 
 // Friends
-var friends = [];
-var questions = [];
-var coolGreetings = [];
+let number = 0;
+let math;
+let text;
 
