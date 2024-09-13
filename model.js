@@ -18,6 +18,7 @@ var imagesStop = "img/car_stop.png"
 var imageIndex = 0;
 var stuffOnCar = [];
 var isMoving = false;
+var rand;
 
 // Friends
 var friends = [];

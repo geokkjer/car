@@ -18,11 +18,16 @@ function winLoss() {
 
     }
 }
+function randomOneOrZero(){
+    rand = Math.floor(Math.random() * 2);
+    return rand
+}
 function car() {
     let randomTime = Math.floor(Math.random() * 2000);
+    
     if (isMoving) {
         
-        setInterval(moving(imageIndex), 100);
+        //setInterval(moving(imageIndex), 100);
         setTimeout(generateRandomStuff, randomTime)
         // setTimeout(buddy, randomTime)
     }
