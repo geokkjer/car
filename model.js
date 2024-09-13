@@ -15,6 +15,7 @@ var CoolnessMTR = 1;
 // Car
 var imagesMoving = ['img/car_moving1.png', 'img/car_moving2.png', "img/car_moving3.png"];
 var imagesStop = "img/car_stop.png"
+var imageIndex = 0;
 var stuffOnCar = [];
 var isMoving = false;
 

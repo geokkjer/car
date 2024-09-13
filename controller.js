@@ -18,6 +18,16 @@ function winLoss() {
 
     }
 }
+function car() {
+    let randomTime = Math.floor(Math.random() * 2000);
+    if (isMoving) {
+        
+        setInterval(moving(imageIndex), 100);
+        setTimeout(generateRandomStuff, randomTime)
+        // setTimeout(buddy, randomTime)
+    }
+}
+
 function generateRandomStuff() {
     thing = Object.keys(randomStuffWithCoolScore)[Math.floor(Math.random() * Object.keys(randomStuffWithCoolScore).length)];
     coolness = randomStuffWithCoolScore[thing];
@@ -42,20 +52,13 @@ function noAdd() {
     updateView();
 }
 function startCar() {
-    isMoving = true;    
+    isMoving = true;
     car();
 }
-function moving() {
-    for (i = 0; i < imagesMoving.length; i++) {
-        element = document.getElementById('car-img');
-        element.src = imagesMoving[i]
-    }
+function moving(imageIndex) {
+    let element = document.getElementById('car-img');
+    element.src = imagesMoving[imageIndex];
+    imageIndex++;
+    return imageIndex
 }
-function car() {
-    let randomTime = Math.floor(Math.random() * 2000);
-    if (isMoving) {
-        moving();
-        setTimeout(generateRandomStuff, randomTime)
-        // setTimeout(buddy, randomTime)
-    }
-}
+
